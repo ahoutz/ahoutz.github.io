@@ -1521,7 +1521,7 @@ button,
   input[type="button"]:active,
   button:active,
   .button:active {
-    background-color: rgba(11, 159, 16 0.15); }
+    background-color: rgba(211, 159, 16 0.15); }
   input[type="submit"].icon:before,
   input[type="reset"].icon:before,
   input[type="button"].icon:before,

@@ -11,22 +11,19 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<style>
-			.container {
-				position: relative;
-				width: 100%;
-				overflow: hidden;
-				height: 100%;
+			.demo-iframe-holder {
+				position: fixed;
+				right: 0;
+				bottom: 0;
+				left: 0;
+				top: 0;
+				-webkit-overflow-scrolling: touch;
+				overflow-y: scroll;
 			}
 			
-			.responsive-iframe {
-				position: absolute;
-				top: 0;
-				left: 0;
-				bottom: 0;
-				right: 0;
-				width: 100%;
+			.demo-iframe-holder iframe {
 				height: 100%;
-				border: none;
+				width: 100%;
 			}
 		</style>
 		
@@ -64,9 +61,8 @@
 									
 									<a href="/pdfs/Third Year Paper - HANK.html" target="_blank">Third Year Paper -HANK</a>
 									
-									<div>
+									<div class="demo-iframe-holder">
 										<iframe id="iframe1"
-											class="responsive-iframe"
 											src="/pdfs/Third Year Paper - HANK.html#toolbar=0" 
 										>
     									</iframe>

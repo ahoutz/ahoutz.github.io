@@ -228,6 +228,17 @@ hr {
 .align-right {
   text-align: right; }
 
+/* iFrame */
+.scroll-wrapper { 
+	-webkit-overflow-scrolling: touch;
+	overflow-y: scroll;
+	
+}
+
+.scroll-wrapper iframe {
+	
+}
+
 /* Row */
 .row {
   display: flex;

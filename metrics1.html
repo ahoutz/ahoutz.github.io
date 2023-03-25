@@ -10,6 +10,34 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<link rel="stylesheet" href="assets/css/main.css" />
+		
+		<style>
+			#wrap {
+				width: 750px;
+				height: 1500px;
+				padding: 0;
+				overflow: hidden;
+			}
+			#scaled-frame {
+				width: 1000px;
+				height: 2000px;
+				border: 0px;
+			}
+			#scaled-frame {
+				zoom:0.75;
+				-moz-transform: scale(0.75);
+				-moz-transform-origin: 0 0;
+				-o-transform: scale(0.75);
+				-o-transform-origin: 0 0;
+				-webkit-transform: scale(0.75);
+				-webkit-transform-origin: 0 0;
+			}
+			@media screen and (-webkit-min-device-pixel-ratio:0) {
+				#scaled-frame {
+					zoom: 1;
+				}
+			}
+		</style>
 	</head>
 	<body class="is-preload">
 
@@ -48,8 +76,10 @@
 		-->
 									
 									<h2 id="content">Fall 2021</h2>
-									<iframe src="/pdfs/fall2021.html#toolbar=0" height="900" width="100%" id="iframe" scrolling="yes">
+									<div id="wrap">
+									<iframe id="scaled-frame" src="/pdfs/fall2021.html#toolbar=0" >
     									</iframe>
+									<div>
 									<br>
 									<br>
 									<br>

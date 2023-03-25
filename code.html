@@ -10,6 +10,26 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
+		<style>
+			.container {
+				position: relative;
+				width: 100%;
+				overflow: hidden;
+				height: 100%;
+			}
+			
+			.responsive-iframe {
+				position: absolute;
+				top: 0;
+				left: 0;
+				bottom: 0;
+				right: 0;
+				width: 100%;
+				height: 100%;
+				border: none;
+			}
+		</style>
+		
 	</head>
 	<body class="is-preload">
 
@@ -43,10 +63,11 @@
 								<section>	
 									
 									<a href="/pdfs/Third Year Paper - HANK.html" target="_blank">Third Year Paper -HANK</a>
-									<div class="scroll-wrapper">
-									<iframe src="/pdfs/Third Year Paper - HANK.html#toolbar=0" 
-										height="500px" 
-										width="100%"
+									
+									<div class="container">
+									<iframe id="iframe1"
+										class="responsive-iframe"
+										src="/pdfs/Third Year Paper - HANK.html#toolbar=0" 
 										>
     									</iframe>
 									</div>

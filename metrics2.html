@@ -10,7 +10,31 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
-		
+		<style>
+			/* mobile (you can change 540px to whatever breakpoint you like) */
+			@media(max-width: 540px) {
+  				.desktop {
+    					display: none;
+  				}
+  
+  				.mobile {
+    					display: block;
+    					border: 1px solid red;
+  				}
+			}
+
+			/* desktop */
+			@media(min-width: 541px) {
+  				.desktop {
+    					display: block;
+    					border: 1px solid cyan;
+  				}
+  
+  				.mobile {
+    					display: none;
+  				}
+			}
+		</style>
 	</head>
 	<body class="is-preload">
 
@@ -40,33 +64,13 @@
 									</header>
 
 									<h2 id="content">Spring 2022</h2>
-									<div style="
-										    overflow: hidden;
-										    display:inline-block;">
-										<iframe class="desktop"
-										    src="/pdfs/fall2021.html#toolbar=0" 
-											scrolling="no"
-											frameBorder="0"
-											style="
-												width: 100%; 
-												height: 1000px;"
-
-										></iframe>
-										<iframe class="mobile"
-										    src="/pdfs/fall2021.html#toolbar=0" 
-											scrolling="no"
-											frameBorder="0"
-											style="
-												width: 100%; 
-												height: 1000px;
-												margin-top: -180px;
-											        margin-left: -200px;
-											       -webkit-transform:scale(0.8);
-											       -moz-transform:scale(0.8);
-											       -o-transform:scale(0.8);
-											       -ms-transform:scale(0.8);"
-										></iframe>
-									</div>
+									<iframe class="desktop" src="/pdfs/spring2022.pdf#toolbar=0" 
+										width= "600px"
+										height= "780px"> 
+									</iframe>
+									
+									<p class="mobile" > Mobile devices do not support embeded PDFs, you can download the notes below: </p> 
+									<a class="mobile" href="/pdfs/spring2022.pdf#toolbar=0" target="_blank">Spring 2022</a>
 										
 								</section>
 

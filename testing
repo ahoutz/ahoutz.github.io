@@ -1,0 +1,143 @@
+<!DOCTYPE HTML>
+<!--
+	Editorial by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Code</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Main -->
+					<div id="main">
+						<div class="inner">
+
+							<!-- Header -->
+								<header id="header">
+									<a href="index.html" class="logo"><strong>AH</strong></a>
+									<ul class="icons">
+										<li><a href="https://github.com/ahoutz" class="icon brands fa-github"><span class="label">Github</span></a></li>
+
+									</ul>
+								</header>
+
+							<!-- Content -->
+								<section>
+									<header class="main">
+										<h1>Code</h1>
+									</header>
+									
+									<p> Below are various files containing code I've written. I cannot guarantee the accuracy of these files, but they should be useful examples for those looking to learn. </p>
+								</section>
+							
+							<!-- Jupyter Test -->
+								<section>
+									<h2>Python</h2>
+								
+									<a href="https://github.com/ahoutz/Medium-HANK" target="_blank">Medium Scale HANK Model</a>
+									<p> This file codes up the medium scale New Keynesian model I used in <i>A Systematic Analysis of NGDP Targeting </i> as a heterogeneous agents model. I pull the household block from the sequence-space Jacobian toolbox of Auclert et al. (2021).</p>
+									
+									<a href="https://github.com/ahoutz/Canonical-NK" target="_blank">Canonical NK Model</a>
+									<p> This file codes up the canonical three-equation New Keynesian model (see Gali 2015 for example).</p>
+									
+									<a href="https://github.com/ahoutz/Simple-RANK" target="_blank">Non-Linear RANK Model</a>
+									<p> This file codes up a non-linear New Keynesian model with an equilibrium level of assets. </p>
+									
+									<h2>Dynare</h2>
+									
+									<a href="https://github.com/ahoutz/Canonical-NK" target="_blank">Canonical NK Model</a>
+									<p> This file codes up the canonical three-equation New Keynesian model, but in Dynare instead of Python. </p>
+									
+							<!--		<iframe 
+										src="/pdfs/Third Year Paper - HANK.html#toolbar=0" width="100%" 
+										height="500px" frameborder="0" style="overflow-y:hidden; overflow-x:scroll;"
+									        >
+    									</iframe> 
+									<br>
+									<p></p>
+									<br>
+									<h2>Try it out Yourself</h2>
+									<iframe 
+      										src="https://audrianapohlman.github.io/jupyter/lab/index.html"
+      										width="100%" 
+      										height="500px"
+    										>
+									</iframe>. 
+								-->
+
+							</section>
+
+						</div>
+					</div>
+
+				
+				<!-- Sidebar -->
+					<div id="sidebar">
+						<div class="inner">
+
+							<!-- Menu -->
+								<nav id="menu">
+									<header class="major">
+										<h2>Menu</h2>
+									</header>
+									<ul>
+										<li><a href="index.html">Home</a></li>
+							<!--			<li><a href="aboutme.html">About Me</a></li> -->
+										<li><a href="research.html">Research</a></li>
+										<li><a href="code.html">Code</a></li>
+										<li>
+											<span class="opener">Teaching</span>
+											<ul>
+												<li><a href="mathcamp.html">Math Camp</a></li>
+												<li><a href="metrics1.html">Econometrics I</a></li>
+												<li><a href="metrics2.html">Econometrics II</a></li>
+												<li><a href="mynotes.html">My Notes</a></li>
+											</ul>
+										</li>
+									</ul>
+								</nav>
+
+							<!-- Section -->
+								<section>
+									<header class="major">
+										<h2>Get in touch</h2>
+									</header>
+									
+									<ul class="contact">
+										<li class="icon solid fa-envelope"><a href="#">ahoutz@nd.edu</a></li>
+									<!-- 	<li class="icon solid fa-phone">(000) 000-0000</li> -->
+										<li class="icon solid fa-home">University of Notre Dame<br />
+										Department of Economics<br />
+										3011 Jenkins-Nanovic Hall <br />
+										Notre Dame, IN 46556</li>
+									</ul>
+								</section> 
+
+							<!-- Footer -->
+								<footer id="footer">
+									<p class="copyright">&copy; Alex Houtz. All rights reserved. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
+								</footer>
+
+						</div>
+					</div>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>

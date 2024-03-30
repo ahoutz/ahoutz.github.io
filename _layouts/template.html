@@ -1,109 +1,114 @@
 <!DOCTYPE html>
+
 <html>
-<head>
+	<head>
 
-  <meta charset="utf-8">
+	  	<meta charset="utf-8">
+	
+	  	<title>{{ page.title }}</title>
+	
+	  	<style>
+	    		body {
+	        		display: flex;
+	        		}			
+		</style> 
+	
+		<!-- Link to main stylesheet -->
+		<link rel="stylesheet" href="../assets/css/main.css">
+		
+		<!-- Link to additional stylesheet for math content -->
+		<link rel="stylesheet" href="../assets/css/math.css">
 
-  <title>{{ page.title }}</title>
+	</head>
 
-  <style>
-    body {
-        display: flex;
-        }			
-	</style> 
+	<body class="is-preload">
 
-    <!-- Link to main stylesheet -->
-    <link rel="stylesheet" href="../assets/css/main.css">
-
-    <!-- Link to additional stylesheet for math content -->
-    <link rel="stylesheet" href="../assets/css/math.css">
-
-</head>
-
-  <body class="is-preload">
-
-<!-- Wrapper -->
-            <div id="wrapper">
-
-                <!-- Main -->
-                    <div id="main">
-                        <div class="inner">
-
-                            <!-- Header -->
-                                <header id="header">
-                                    <a href="../index.html" class="logo"><strong>AH</strong></a>
-                                    <ul class="icons">
-                                        <li><a href="https://github.com/ahoutz" class="icon brands fa-github"><span class="label">Github</span></a></li>
-
-                                    </ul>
-                                </header>
-
-                            <!-- Unique Content -->
-                                <div id="content">
-                {{ content }}
-              </div>
-
-                        </div>
-                    </div>
-
-                <!-- Sidebar -->
-                    <div id="sidebar">
-                        <div class="inner">
-
-
-                            <nav id="menu">
-                            									<header class="major">
-                            										<h2>Menu</h2>
-                            									</header>
-                            									<ul>
-                            										<li><a href="index.html">Home</a></li>
-                            								<!--		<li><a href="aboutme.html">About Me</a></li> -->
-                            										<li><a href="research.html">Research</a></li>
-                            										<li><a href="code.html">Code</a></li>
-                            										<li>
-                            											<span class="opener">Teaching</span>
-                            											<ul>
-                            												<li><a href="mathcamp">Math Camp</a></li>
-                            												<li><a href="metrics1">Econometrics I</a></li>
-                            												<li><a href="metrics2">Econometrics II</a></li>
-                            												<li><a href="mynotes">My Notes</a></li>
-                            											</ul>
-                            										</li>
-                            									</ul>
-								              </nav>
-
-                      
-                      		          <section>
-                      									<header class="major">
-                      										<h2>Get in touch</h2>
-                      									</header>
-                      									
-                      									<ul class="contact">
-                      										<li class="icon solid fa-envelope"><a href="#">ahoutz@nd.edu</a></li>
-                      									<!-- 	<li class="icon solid fa-phone">(000) 000-0000</li> -->
-                      										<li class="icon solid fa-home">University of Notre Dame<br />
-                      										Department of Economics<br />
-                      										3011 Jenkins-Nanovic Hall <br />
-                      										Notre Dame, IN 46556</li>
-                      									</ul>
-                      								</section> 
-                      
-                      							<!-- Footer -->
-                      								<footer id="footer">
-                      									<p class="copyright">&copy; Alex Houtz. All rights reserved. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
-                      								</footer>
-                      
-                      						</div>
-                      					</div>
-                      
-                      			</div>
-                      
-      <!-- Scripts -->
-        <script src="assets/js/jquery.min.js"></script>
-        <script src="assets/js/browser.min.js"></script>
-        <script src="assets/js/breakpoints.min.js"></script>
-        <script src="assets/js/util.js"></script>
-        <script src="assets/js/main.js"></script>
+		<!-- Wrapper -->
+		<div id="wrapper">
+			
+			<!-- Main -->
+			<div id="main">
+				
+				<div class="inner">
+	
+				    	<!-- Header -->
+					<header id="header">
+					    <a href="../index.html" class="logo"><strong>AH</strong></a>
+					    <ul class="icons">
+						    
+						<li><a href="https://github.com/ahoutz" class="icon brands fa-github"><span class="label">Github</span></a></li>
+	
+					    </ul>
+					</header>
+	
+				    	<!-- Unique Content -->
+					<div id="content">
+						{{ content }}
+					</div>
+	
+				</div>
+				    
+			    </div>
+			
+			<!-- Sidebar -->
+			<div id="sidebar">
+				<div class="inner">
+					<nav id="menu">
+						<header class="major">
+							<h2>Menu</h2>
+						</header>
+						
+						<ul>
+							<li><a href="index.html">Home</a></li>
+							<li><a href="research.html">Research</a></li>
+							<li><a href="code.html">Code</a></li>
+							
+							<li>
+								<span class="opener">Teaching</span>
+								<ul>
+									<li><a href="mathcamp">Math Camp</a></li>
+									<li><a href="metrics1">Econometrics I</a></li>
+									<li><a href="metrics2">Econometrics II</a></li>
+									<li><a href="mynotes">My Notes</a></li>
+								</ul>
+							</li>
+						</ul>
+					</nav>
+				
+				
+					<section>
+						<header class="major">
+							<h2>Get in touch</h2>
+						</header>
+						
+						<ul class="contact">
+							<li class="icon solid fa-envelope"><a href="#">ahoutz@nd.edu</a></li>
+							<li class="icon solid fa-home">University of Notre Dame<br />
+							Department of Economics<br />
+							3011 Jenkins-Nanovic Hall <br />
+							Notre Dame, IN 46556</li>
+						</ul>
+						
+					</section> 
+				
+					<!-- Footer -->
+					<footer id="footer">
+						<p class="copyright">&copy; Alex Houtz. All rights reserved. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
+					</footer>
+				
+				</div>
+				
+			</div>
+			
+		</div>
+			                      
+	      <!-- Scripts -->
+		<script src="assets/js/jquery.min.js"></script>
+		<script src="assets/js/browser.min.js"></script>
+		<script src="assets/js/breakpoints.min.js"></script>
+		<script src="assets/js/util.js"></script>
+		<script src="assets/js/main.js"></script>
 
 	</body>
+	
 </html>

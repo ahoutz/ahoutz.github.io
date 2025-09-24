@@ -77,6 +77,51 @@ html {
 *, *:before, *:after {
   box-sizing: inherit; }
 
+/* NEW CODE BEGIN */
+
+/* 1) Make the image itself scale inside its container */
+#banner .image img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* 2) If Editorial positioned the image absolutely, reset that on smaller screens */
+@media (max-width: 980px) {
+  #banner {
+    display: block;
+  }
+
+  /* Ensure the text/content column takes full width */
+  #banner .content {
+    width: 100% !important;
+    margin-right: 0 !important;
+  }
+
+  /* Force the image section to stack below and not overflow */
+  #banner .image,
+  #banner .image.object {
+    position: static !important;
+    width: 100% !important;
+    height: auto !important;
+    margin-top: 1rem;
+  }
+
+  #banner .image.object img {
+    position: static !important;
+    width: 100% !important;
+    height: auto !important;
+  }
+}
+
+/* 3) Safety net: never let any img overflow its container */
+img { 
+  max-width: 100%;
+  height: auto;
+}
+
+/* NEW CODE END */
+
 body {
   background: #ffffff; }
   body.is-preload *, body.is-preload *:before, body.is-preload *:after, body.is-resizing *, body.is-resizing *:before, body.is-resizing *:after {
@@ -2271,3 +2316,4 @@ button,
     border-top: 0;
     margin-top: 0;
     padding-top: 0; }
+

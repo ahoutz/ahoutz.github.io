@@ -13,7 +13,7 @@ NDGold rgb: 211, 159, 16 */
 HopeOrange rgb: 244, 106, 31 */
 
 :root {
-  --theme-color: #F46A1F;
+  --theme-color: #d39F10;
   --theme-color-rgb: 244, 106, 31;
 }
 
@@ -2329,6 +2329,7 @@ button,
     border-top: 0;
     margin-top: 0;
     padding-top: 0; }
+
 
 
 

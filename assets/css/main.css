@@ -5,6 +5,18 @@
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
+
+/* NDGold hex: #d39F10
+NDGold rgb: 211, 159, 16 */
+
+/* HopeOrange hex: #F46A1F
+HopeOrange rgb: 244, 106, 31 */
+
+:root {
+  --theme-color: #F46A1F;
+  --theme-color-rgb: 244, 106, 31;
+}
+
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
 pre, a, abbr, acronym, address, big, cite,
@@ -22,17 +34,6 @@ section, summary, time, mark, audio, video {
   font-size: 100%;
   font: inherit;
   vertical-align: baseline; }
-
-/* NDGold hex: #d39F10
-NDGold rgb: 211, 159, 16 */
-
-/* HopeOrange hex: #F46A1F
-HopeOrange rgb: 244, 106, 31 */
-
-:root {
-  --theme-color: #F46A1F;
-  --theme-color-rgb: 244, 106, 31;
-}
 
 
 article, aside, details, figcaption, figure,
@@ -2328,6 +2329,7 @@ button,
     border-top: 0;
     margin-top: 0;
     padding-top: 0; }
+
 
 
 

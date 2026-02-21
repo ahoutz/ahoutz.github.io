@@ -1,4 +1,4 @@
-This is the code to generate my PhD website: ahoutz.github.io
+This is the code to generate my personal website: ahoutz.github.io
 
 The template comes from HTML5 UP and is originally called "Editorial." Below is their original readme file.
 
@@ -34,3 +34,4 @@ Credits:
 	Other:
 		jQuery (jquery.com)
 		Responsive Tools (github.com/ajlkn/responsive-tools)
+

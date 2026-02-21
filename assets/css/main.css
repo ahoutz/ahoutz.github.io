@@ -1,5 +1,6 @@
 @import url(fontawesome-all.min.css);
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,600,400italic,600italic|Roboto+Slab:400,700");
+
 /*
 	Editorial by HTML5 UP
 	html5up.net | @ajlkn
@@ -11,6 +12,9 @@ NDGold rgb: 211, 159, 16 */
 
 /* HopeOrange hex: #F46A1F
 HopeOrange rgb: 244, 106, 31 */
+
+/* TulipOrange hex: #F0AB00
+TulipOrange rgb: 240, 170, 0 */
 
 :root {
   --theme-color: #F0AB00;
@@ -2329,6 +2333,7 @@ button,
     border-top: 0;
     margin-top: 0;
     padding-top: 0; }
+
 
 
 

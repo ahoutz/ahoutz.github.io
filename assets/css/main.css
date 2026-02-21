@@ -2332,29 +2332,6 @@ button,
 
 
 
-table.paper-row {
-  width: 100%;
-  table-layout: fixed;
-  border-collapse: collapse;   /* removes default spacing between cells */
-}
-
-table.paper-row td {
-  padding: 0;                  /* important: default td padding creates “mystery gaps” */
-  vertical-align: top;
-}
-
-table.paper-row .col-left { width: 90px; }   /* pick something that fits “Draft/Abstract” */
-table.paper-row .col-gap  { width: 10px; }   /* your desired small separation */
-table.paper-row .col-main { width: auto; }   /* takes the remaining width */
-
-table.paper-row .left {
-  white-space: nowrap;
-}
-
-table.paper-row .abstract {
-  display: none;
-  margin-left: 1em;
-}
 
 
 

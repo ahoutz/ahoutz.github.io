@@ -2331,6 +2331,39 @@ button,
     padding-top: 0; }
 
 
+.paper-top{
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 0.75em;
+  flex-wrap: wrap;
+}
+
+/* keep the title from adding extra spacing */
+.paper-title{ margin: 0; }
+
+/* key trick: let summary/body behave like flex items */
+details.abstract{ display: contents; }
+
+/* make the toggle look like a small control on the right */
+.abstract-toggle{
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+/* make the expanded abstract span full width below the row */
+.abstract-body{
+  flex-basis: 100%;
+  margin-top: 0.5em;
+}
+
+/* optional: nicer arrow (and remove default marker) */
+.abstract-toggle::marker{ content: ""; }
+.abstract-toggle::after{ content: " ▾"; }
+details.abstract:not([open]) .abstract-toggle::after{ content: " ▸"; }
+
+
+
 
 
 

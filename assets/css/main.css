@@ -41,7 +41,7 @@ section, summary, time, mark, audio, video {
 
 
 article, aside, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section {
+footer, , hgroup, menu, nav, section {
   display: block; }
 
 body {
@@ -2156,7 +2156,7 @@ button,
   @media screen and (max-width: 1680px) {
     #header {
       padding-top: 5em; } }
-  @media screen and (max-width: 736px) {
+  /* @media screen and (max-width: 736px) {
     #header {
       padding-top: 6.5em;
 	}
@@ -2168,7 +2168,27 @@ button,
         line-height: 5em;
         position: absolute;
         right: -0.5em;
-        top: 0;
+        top: 0; */
+		@media screen and (max-width: 736px) {
+		  #header {
+		    padding-top: 6.5em;
+		
+		    display: flex;
+		    align-items: center;          /* vertical alignment */
+		    justify-content: space-between; /* logo left, icons right */
+		  }
+		
+		  #header .logo {
+		    font-size: 1.25em;
+		    margin: 0;
+		  }
+		
+		  #header .icons {
+		    position: static;  /* or just remove position/right/top entirely */
+		    height: auto;
+		    line-height: normal;
+		    margin: 0;
+		  }
 	  }
   }
 
@@ -2336,6 +2356,7 @@ button,
     border-top: 0;
     margin-top: 0;
     padding-top: 0; }
+
 
 
 

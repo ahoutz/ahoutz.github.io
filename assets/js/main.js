@@ -234,29 +234,59 @@
 
 				});
 
-	// Menu.
-		var $menu = $('#menu'),
-			$menu_openers = $menu.children('ul').find('.opener');
+// 	// Menu.
+// 		var $menu = $('#menu'),
+// 			$menu_openers = $menu.children('ul').find('.opener');
 
-		// Openers.
-			$menu_openers.each(function() {
+// 		// Openers.
+// 			$menu_openers.each(function() {
 
-				var $this = $(this);
+// 				var $this = $(this);
 
-				$this.on('click', function(event) {
+// 				$this.on('click', function(event) {
 
-					// Prevent default.
-						event.preventDefault();
+// 					// Prevent default.
+// 						event.preventDefault();
 
-					// Toggle.
-						$menu_openers.not($this).removeClass('active');
-						$this.toggleClass('active');
+// 					// Toggle.
+// 						$menu_openers.not($this).removeClass('active');
+// 						$this.toggleClass('active');
 
-					// Trigger resize (sidebar lock).
-						$window.triggerHandler('resize.sidebar-lock');
+// 					// Trigger resize (sidebar lock).
+// 						$window.triggerHandler('resize.sidebar-lock');
 
-				});
+// 				});
+
+// 			});
+
+// })(jQuery);
+
+// Menu.
+	var $menu = $('#menu'),
+		$menu_openers = $menu.children('ul').find('.opener');
+
+	// Openers.
+		$menu_openers.each(function() {
+
+			var $this = $(this);
+
+			$this.on('click', function(event) {
+
+				// Prevent default.
+					event.preventDefault();
+
+				// Keep parent dropdowns open.
+					var $ancestor_openers = $this.parents('li').children('.opener');
+
+				// Toggle.
+					$menu_openers.not($this).not($ancestor_openers).removeClass('active');
+					$this.toggleClass('active');
+
+				// Trigger resize (sidebar lock).
+					$window.triggerHandler('resize.sidebar-lock');
 
 			});
+
+		});
 
 })(jQuery);

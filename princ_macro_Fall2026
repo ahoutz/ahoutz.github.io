@@ -1,0 +1,152 @@
+---
+layout: template
+title: Principles of Macro, Fall 2025
+---
+
+<!DOCTYPE HTML>
+<!--
+	Editorial by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Principles of Macro Fall 2025</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		
+		<style>
+			/* mobile (you can change 540px to whatever breakpoint you like) */
+			@media(max-width: 540px) {
+  				.desktop {
+    					display: none;
+  				}
+  
+  				.mobile {
+    					display: block;
+    					/* border: 1px solid red; */
+  				}
+			}
+
+			/* desktop */
+			@media(min-width: 541px) {
+  				.desktop {
+    					display: block;
+    					/* border: 1px solid cyan; */
+  				}
+  
+  				.mobile {
+    					display: none;
+  				}
+			}
+		</style>
+	</head>
+	
+	<!-- Content -->
+	<section>
+		<header class="main">
+			<h1>Principles of Macro Fall 2025</h1>
+		</header>
+		<p> Below you can find the slide decks for my Principles of Macro course from Fall 2025 at the University of Notre Dame. You can find the syllabus <a href="/pdfs/Principles of Macro Slides/Syllabus_redacted.pdf#toolbar=0" target="_blank">here</a>. </p>
+	</section>
+	<section>
+		<h3 id="content">Class 1 -- Intro and GDP</h3>
+		<p> <a href="/pdfs/Principles of Macro Slides/Class1_redacted.pdf#toolbar=0" target="_blank">Slides</a></p>
+
+		<h3 id="content">Class 2 -- Real GDP and the CPI</h3>
+		<p> <a href="/pdfs/Principles of Macro Slides/Class2.pdf#toolbar=0" target="_blank">Slides</a></p>
+
+		<h3 id="content">Class 3 -- Introduction to Growth</h3>
+		<p> <a href="/pdfs/Principles of Macro Slides/Class3.pdf#toolbar=0" target="_blank">Slides</a></p>
+
+		<h3 id="content">Class 4 -- A Production Economy Part 1</h3>
+		<p> <a href="/pdfs/Principles of Macro Slides/Class4.pdf#toolbar=0" target="_blank">Slides</a></p>
+
+		<h3 id="content">Class 5 -- A Production Economy Part 2</h3>
+		<p> <a href="/pdfs/Principles of Macro Slides/Class5.pdf#toolbar=0" target="_blank">Slides</a></p>
+
+		<h3 id="content">Class 6 -- Growth Accounting</h3>
+		<p> <a href="/pdfs/Principles of Macro Slides/Class6.pdf#toolbar=0" target="_blank">Slides</a></p>
+
+		<h3 id="content">Class 7 -- Investment and Savings</h3>
+		<p> <a href="/pdfs/Principles of Macro Slides/Class7.pdf#toolbar=0" target="_blank">Slides</a></p>
+
+		<h3 id="content">Class 8 -- The Market for Loanable Funds</h3>
+		<p> <a href="/pdfs/Principles of Macro Slides/Class8.pdf#toolbar=0" target="_blank">Slides</a></p>
+
+		<h3 id="content">Class 9 -- Unemployment</h3>
+		<p> <a href="/pdfs/Principles of Macro Slides/Class9.pdf#toolbar=0" target="_blank">Slides</a></p>
+
+		<h3 id="content">Class 10 -- Returns to Human Capital</h3>
+		<p> <a href="/pdfs/Principles of Macro Slides/Class10.pdf#toolbar=0" target="_blank">Slides</a></p>
+
+		<h3 id="content">Class 11 -- International Trade 1</h3>
+		<p> <a href="/pdfs/Principles of Macro Slides/Class11.pdf#toolbar=0" target="_blank">Slides</a></p>
+
+		<h3 id="content">Class 12 -- International Trade 2</h3>
+		<p> <a href="/pdfs/Principles of Macro Slides/Class12.pdf#toolbar=0" target="_blank">Slides</a></p>
+
+		<h3 id="content">Class 13 -- Capital Flows and Exchange Rates</h3>
+		<p> <a href="/pdfs/Principles of Macro Slides/Class13.pdf#toolbar=0" target="_blank">Slides</a></p>
+
+		<h3 id="content">Class 14 -- Exchange Rates and Macroeconomic Policy</h3>
+		<p> <a href="/pdfs/Principles of Macro Slides/Class14.pdf#toolbar=0" target="_blank">Slides</a></p>
+
+		<h3 id="content">Midterm</h3>
+		<p> <a href="/pdfs/Principles of Macro Slides/Practice_Midterm.pdf#toolbar=0" target="_blank">Practice Midterm</a></p>
+
+		<h3 id="content">Class 15 -- Income and Expenditure</h3>
+		<p> <a href="/pdfs/Principles of Macro Slides/Class15.pdf#toolbar=0" target="_blank">Slides</a></p>
+
+		<h3 id="content">Class 16 -- GDP and Expenditure</h3>
+		<p> <a href="/pdfs/Principles of Macro Slides/Class16.pdf#toolbar=0" target="_blank">Slides</a></p>
+
+		<h3 id="content">Class 17 -- Aggregate Demand and Aggregate Supply</h3>
+		<p> <a href="/pdfs/Principles of Macro Slides/Class17.pdf#toolbar=0" target="_blank">Slides</a></p>
+
+		<h3 id="content">Class 18 -- Dynamics</h3>
+		<p> <a href="/pdfs/Principles of Macro Slides/Class18.pdf#toolbar=0" target="_blank">Slides</a></p>
+
+		<h3 id="content">Class 19 -- Fiscal Policy</h3>
+		<p> <a href="/pdfs/Principles of Macro Slides/Class19.pdf#toolbar=0" target="_blank">Slides</a></p>
+
+		<h3 id="content">Class 20 -- Government Debt</h3>
+		<p> <a href="/pdfs/Principles of Macro Slides/Class20.pdf#toolbar=0" target="_blank">Slides</a></p>
+
+		<h3 id="content">Class 21 -- Intro to Monetary Policy</h3>
+		<p> <a href="/pdfs/Principles of Macro Slides/Class21.pdf#toolbar=0" target="_blank">Slides</a></p>
+
+		<h3 id="content">Class 22 -- Monetary Policy, the Long Run, Okun's Law, and the Phillips Curve</h3>
+		<p> <a href="/pdfs/Principles of Macro Slides/Class22.pdf#toolbar=0" target="_blank">Slides</a>
+			</br>
+			<a href="/pdfs/Principles of Macro Slides/Problem_Set_1.pdf#toolbar=0" target="_blank">Problem Set</a></p>
+
+		<h3 id="content">Practice Final</h3>
+		<p> <a href="/pdfs/Principles of Macro Slides/Practice_Final.pdf#toolbar=0" target="_blank">Practice Final</a></p>
+
+		<p> </br> </br> </br> </p>
+		<p> </p>
+		<p> </p>
+		<!-- 	<a href="/pdfs/fall2022.pdf#toolbar=0" target="_blank">Fall 2022</a>
+		</p>
+		<iframe class="desktop" src="/pdfs/fall2022.pdf#toolbar=0" 
+			width= "600px"
+			height= "780px"> 
+		</iframe>
+	-->
+		
+	
+	<!-- 	<a href="/pdfs/fall2021.pdf#toolbar=0" target="_blank">Fall 2021</a></p>
+		<iframe class="desktop" src="/pdfs/fall2021.pdf#toolbar=0" 
+			width= "600px"
+			height= "780px"> 
+		</iframe>
+	-->	
+
+		
+	</section>
+
+						
+				
+</html>
